@@ -1,0 +1,11 @@
+CREATE DATABASE Souzx;
+
+USE  Souzx;
+
+CREATE TABLE usuarios(
+    id_usuario INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+);
+
