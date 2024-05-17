@@ -185,6 +185,9 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 10px;
 }
 
 #login{
@@ -221,4 +224,73 @@ h2{
     margin-bottom: 15px;
 }
 
+/* itens meio*/
 
+
+/* animação de seleção de itens*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+
+.responsive:hover {
+    transform: scale(0.9);
+}
+
+/*aqui acaba a animção de itens*/
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 100px; 
+    margin-left: 80px;
+    
+}
+
+.flex>div {
+    flex: 1 1 1 200px;
+    margin: 30px;
+}
+
+#animation {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+/* animação de seleção de itens*/
+
+.responsive2 {
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+
+.responsive2:hover {
+    transform: scale(0.9);
+}
+
+/*aqui acaba a animção de itens*/
+
+.botão{
+    display: flex;
+    margin-top: 10px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #4f46e5;
+
+}
